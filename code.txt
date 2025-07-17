@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryan Gaikwad | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0f62fe;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .project {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .project a {
+      color: #0f62fe;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aryan Gaikwad</h1>
+    <p>Tech Enthusiast | Power BI | Python | UI/UX Design</p>
+  </header>
+
+  <div class="container">
+    <div class="project">
+      <h2>📊 NVIDIA Stock Price Dashboard (1999–2025)</h2>
+      <p>Built using Power BI to visualize NVIDIA's stock trends over two decades. Used DAX, dynamic slicers, and KPIs for better data storytelling.</p>
+      <a href="YOUR_PUBLIC_LINK_TO_DASHBOARD" target="_blank">🔗 View Project</a>
+      <img src="powerbi-screenshot.png" alt="NVIDIA Power BI Dashboard Screenshot" />
+    </div>
+
+    <div class="project">
+      <h2>🎨 UI/UX Project – App Design</h2>
+      <p>Designed a user-friendly mobile interface using Figma. Focused on clean layouts, visual hierarchy, and accessibility.</p>
+      <a href="YOUR_BEHANCE_OR_DRIVE_LINK" target="_blank">🔗 View Design</a>
+      <img src="uiux-screenshot.png" alt="UI/UX Project Screenshot" />
+    </div>
+  </div>
+
+  <footer>
+    Connect with me on <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
+  </footer>
+</body>
+</html>
